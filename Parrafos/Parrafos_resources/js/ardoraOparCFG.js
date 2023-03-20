@@ -23,10 +23,10 @@ var timeOnMessage=5; messageOk="¡Felicidades!"; messageTime="Se te acabo el tie
 var urlOk=""; urlTime=""; urlError=""; urlAttempts="";
 var goURLOk="_blank"; goURLTime="_blank"; goURLAttempts="_blank"; goURLError="_blank"; 
 borderOk="#008000"; borderTime="#FF8000";borderError="#FF0000"; borderAttempts="#FF8000";
-var wordsGame="UGFycmFmb3NRdWltaWNh"; wordsStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+var wordsGame="UGFycmFmb3M="; wordsStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
 function giveZindex(typeElement){var valueZindex=0; capas=document.getElementsByTagName(typeElement);
 for (i=0;i<capas.length;i++){if (parseInt($(capas[i]).css("z-index"),10)>valueZindex){valueZindex=parseInt($(capas[i]).css("z-index"),10);}}return valueZindex;}
-var actMaxWidth="600"; actMaxHeight="400";profG=0;dirMedia="ParrafosQuimica_resources/media/";
+var actMaxWidth="600"; actMaxHeight="400";profG=0;dirMedia="Parrafos_resources/media/";
 var indexG=0;
 var words1G=["VW4gZWxlY3Ryw7NuIGVzIHVuIHRpcG8gZGUgcGFydMOtY3VsYSBzdWJhdMOzbWljYQ==","cXVlIHByZXNlbnRhIGNhcmdhIGVsw6ljdHJpY2EgbmVnYXRpdmEgeQ==","cXVlIG9yYml0YSBlbCBuw7pjbGVvIGF0w7NtaWNvIChjb21wdWVzdG8gcG9yIHByb3RvbmVzIHkgbmV1dHJvbmVzKSw=","cXVlIHByZXNlbnRhIHVuYSBjYXJnYSBlbMOpY3RyaWNhIHBvc2l0aXZhLg=="];
 var words2G=["RWwgcHJvdMOzbiBlcyB1biB0aXBvIGRlIHBhcnTDrWN1bGEgc3ViYXTDs21pY2Es","ZXMgZGVjaXIsIHVuYSBkZSBsYXMgcGFydMOtY3VsYXMgbcOtbmltYXMgcXVlIGNvbnN0aXR1eWVuIGFsIMOhdG9tby4=","UGVydGVuZWNlIGEgbGEgZmFtaWxpYSBkZSBsb3MgZmVybWlvbmVzIHk=","ZXN0w6EgZG90YWRvIGRlIGNhcmdhIGVsw6ljdHJpY2EgcG9zaXRpdmEu"];

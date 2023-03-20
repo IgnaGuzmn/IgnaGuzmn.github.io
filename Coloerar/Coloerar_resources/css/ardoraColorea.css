@@ -64,14 +64,34 @@ background:rgba(255,128,0,0.5);}
 #ardoraActCanvas{z-index: 0; position: absolute; visibility:hidden;top:0; left:5px;}
 #ardoraAct{position: relative; margin-right: 10px; padding: 5px; float: left;
 }
-.imaLeft{margin-right:5px; margin-bottom:5px;} .imaRight{margin-left:5px; margin-bottom:5px;}#playSound{cursor: pointer;}
-#ardoraQuest{font-size: 18px;font-family:Verdana, Geneva, sans-serif;text-align:justify;padding: 0 5px 0 5px;color:#000000;}
-#ardoraActSort{background-repeat: no-repeat; background-position: center;} #ardoraImage{width: 100%; text-align: center;}
-.bGame{list-style-type: none;font-size:36px;width:auto;height:48px;border-style:solid;text-align:center;cursor:pointer;
--webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;
--webkit-box-shadow:inset 4px 4px 4px rgba(50, 50, 50, 0.5);box-shadow:inset 4px 4px 4px rgba(50, 50, 50, 0.5);
-border-width:1px; float:left;margin-left: 2px;}
-ul{list-style-type:none;padding:0;position:relative;;}li{float: left;position: relative;}
-.bGame p{padding: 0px 5px 0px 5px; margin: 4px 0 0 0;}
 #ardoraTab{width: 70px;height:320px; position: relative; visibility: visible;padding:5px;float:left;}
 #ardoraAutor{padding-left:5px; clear:both; font-size: 10px; }
+.bColor {cursor: pointer;border-radius:4px;box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.75);border:1px solid #000000;
+display:inline-block;height:20px;width:20px;float: left;}
+.bColor:hover {box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0.75);}
+.bColor:active {position:relative;top:1px;}
+#colorPanel{font-size:10px;display:inline-table;float:left;width:185px;}
+#colorPanel p{font-family:Verdana, Geneva, sans-serif;color:#000000;margin-left:5px;margin-top:5px;float:left;width:150px;text-align:justify;}
+#c0{background: radial-gradient(ellipse at center,#FFFDFD,#FFFF00);}
+#c0:hover{background: radial-gradient(ellipse at center,#FFFF00,#FFFDFD);}
+#c1{background: radial-gradient(ellipse at center,#FFFDFD,#FF80FF);}
+#c1:hover{background: radial-gradient(ellipse at center,#FF80FF,#FFFDFD);}
+#c2{background: radial-gradient(ellipse at center,#FFFDFD,#FF80C0);}
+#c2:hover{background: radial-gradient(ellipse at center,#FF80C0,#FFFDFD);}
+#c3{background: radial-gradient(ellipse at center,#FFFDFD,#FF80C0);}
+#c3:hover{background: radial-gradient(ellipse at center,#FF80C0,#FFFDFD);}
+#c4{background: radial-gradient(ellipse at center,#FFFDFD,#FF80C0);}
+#c4:hover{background: radial-gradient(ellipse at center,#FF80C0,#FFFDFD);}
+#c5{background: radial-gradient(ellipse at center,#FFFDFD,#804000);}
+#c5:hover{background: radial-gradient(ellipse at center,#804000,#FFFDFD);}
+#c6{background: radial-gradient(ellipse at center,#FFFDFD,#FF0000);}
+#c6:hover{background: radial-gradient(ellipse at center,#FF0000,#FFFDFD);}
+#c7{background: radial-gradient(ellipse at center,#FFFDFD,#F47A00);}
+#c7:hover{background: radial-gradient(ellipse at center,#F47A00,#FFFDFD);}
+#c8{background: radial-gradient(ellipse at center,#FFFDFD,#00FFFF);}
+#c8:hover{background: radial-gradient(ellipse at center,#00FFFF,#FFFDFD);}
+#c9{background: radial-gradient(ellipse at center,#FFFDFD,#FF0080);}
+#c9:hover{background: radial-gradient(ellipse at center,#FF0080,#FFFDFD);}
+.bColorSele{border-radius:20px;box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0.75);border:2px solid;display:inline-block;height:20px;width:20px;float: left;}
+li{list-style-type: none; float: left;margin-bottom: 5px;width:185px;}
+#s_pointer{position: absolute;z-index: 20;left:0;top:0;}

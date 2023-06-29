@@ -1,7 +1,5 @@
-h1.paq {
-    width: 10000px;
-    padding: 1000px;
+.paq {
+    border-style: solid;
+    border-width: thick;
     border: 4px blue solid;
-    text-align: center;
-
 }

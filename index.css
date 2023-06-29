@@ -1,7 +1,12 @@
 h1 {
+    font-size: 50px;
     text-align: center;
     border: 10px solid green;
     border-radius: 10px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h3 {
     text-align: center;
@@ -12,4 +17,8 @@ h3 {
 }
 body {
     background-color: rgb(86, 189, 77);
+}
+img {
+    width: 300px;
+    margin-top: 90px;
 }

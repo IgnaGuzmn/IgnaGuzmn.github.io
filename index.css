@@ -37,7 +37,7 @@ nav {
     padding: 0%;
     width: auto;
     margin: auto;
-    background: rgb(54, 255, 54);
+    background: rgb(45, 104, 45);
 }
 h1.tuto {
     color: rgb(6, 59, 6);
@@ -51,7 +51,7 @@ ul li {
 ul li a{
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 5px;
     display: block;
 }
 a{

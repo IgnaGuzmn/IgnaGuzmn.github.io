@@ -19,11 +19,13 @@ $("#botonPechar").keydown(function(e){if (e.which!=9){PechaVentana();}});$("#sug
          indice=window.opener.indice;
       }
    }
-   maxIndice=2;
+   maxIndice=4;
 	taboaContidos=new Array();
 taboaContidos[0]=new act("Letter Soup","Letter Soup","","<object class='ardobject' width='100%' height='420' type='text/html' data='letter_soup/letter_soup.htm'></object>",false,"",true,true,false);
-taboaContidos[1]=new act("Crossword","Crossword","","<object class='ardobject' width='100%' height='420' type='text/html' data='crucigrama/crucigrama.htm'></object>",false,"",true,true,false);
-taboaContidos[2]=new act("Hanged Man Game","Hanged Man Game","","<object class='ardobject' width='100%' height='420' type='text/html' data='ahorcfdeing/ahorcfdeing.htm'></object>",false,"",true,true,false);
+taboaContidos[1]=new act("Letter Soup 2","Letter Soup 2","","<object class='ardobject' width='100%' height='420' type='text/html' data='Feria_Ingles/Feria_Ingles.htm'></object>",false,"",true,true,false);
+taboaContidos[2]=new act("Crossword","Crossword","","<object class='ardobject' width='100%' height='420' type='text/html' data='crucigrama/crucigrama.htm'></object>",false,"",true,true,false);
+taboaContidos[3]=new act("Hanged Man Game","Hanged Man Game","","<object class='ardobject' width='100%' height='420' type='text/html' data='ahorcfdeing/ahorcfdeing.htm'></object>",false,"",true,true,false);
+taboaContidos[4]=new act("Puzzle","Puzzle","","<object class='ardobject' width='100%' height='420' type='text/html' data='Honduras/Honduras.htm'></object>",false,"",true,true,false);
 document.getElementById("botonAdiante").href="javascript:avanza()";
 document.getElementById("botonAtras").href="javascript:retrocede()";
 document.getElementById("botonAxuda").target="_blank";

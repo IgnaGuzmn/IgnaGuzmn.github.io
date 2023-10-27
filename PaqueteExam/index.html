@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Paquete de exámen</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Ignacio Guzmán " />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<meta name="description" content="Creado por Ignacio Guzmán 1G" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="scrambled-list.css" />
+<script type="text/javascript" src="scrambled-list.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-single-page"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<header id="header">
+<div id="headerContent">
+<h1>Paquete de exámen</h1>
+</div>
+</header>
+<section id="main">
+<article class="node level-1-node" id="exe-node-0">
+<header class="nodeDecoration">
+<h1 id="exenode_0_Inicio" class="nodeTitle">Inicio</h1>
+<div class="exe-text"><p>hecho por Diego Ignacio Guzmán González #15</p></div>
+</header>
+</article>
+<article class="node level-2-node" id="exe-node-1">
+<header class="nodeDecoration">
+<h1 id="exenode_1_ProgramacinOrientadaaObjetos" class="nodeTitle">Programación Orientada a Objetos</h1>
+</header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id0-1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Descripción:</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta0_120_2" class="block iDevice_content">
+<div class="exe-text"><p>La Programación Orientada a Objetos (POO) es un tipo de método de programación el cual busca la organización efectiva del código. La POO también permite que el código sea reciclable, para ahorrarse la molestia de reescribir código y, accidentalmente, hacer el código no compile.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice em_iDevice_question" id="id2-1">
+<script type="text/javascript">/*<![CDATA[*/
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 1;
+var key1 = 2;
+function getAnswer()
+        {
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key0b2[i].checked)
+               {
+                  question0 = document.getElementById("quizForm2").key0b2[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key1b2[i].checked)
+               {
+                  question1 = document.getElementById("quizForm2").key1b2[i].value;
+                  break;
+               }
+            }
+            }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               rawScore++;
+            }
+            if (question1 == key1)
+            {
+               rawScore++;
+            }
+        
+        }
+        
+        function calcScore2()
+        {
+            getAnswer();
+     
+            calcRawScore();
+            actualScore =  Math.round(rawScore / numQuestions * 100);
+            var id = "2";
+            document.getElementById("quizForm"+id).submitB.disabled = true;
+            var s = document.getElementById("quizFormScore"+id);
+                        var msg_str ="Su puntuación es %d%%";            msg_str = msg_str.replace("%d",actualScore).replace("%%","%");            if (s) { s.innerHTML = "<div class='feedback'><p>"+msg_str+"</p></div>"; } else { alert(msg_str); }
+           
+        }
+    /*]]>*/</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario POO</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm2" id="quizForm2" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-2" value="100" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b2" class="block iDevice_content">
+<p>¿Qué es la POO?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b21" class="sr-av"><a href="#answer-key0b21">Opción 1</a></label><input type="radio" name="key0b2" id="key0b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b21">
+<div id="taoptionAnswer0q0b2" class="block iDevice_content">
+<p>Un lenguaje de programación.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b22" class="sr-av"><a href="#answer-key0b22">Opción 2</a></label><input type="radio" name="key0b2" id="key0b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b22">
+<div id="taoptionAnswer1q0b2" class="block iDevice_content">
+<p>Un método de programación.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b23" class="sr-av"><a href="#answer-key0b23">Opción 3</a></label><input type="radio" name="key0b2" id="key0b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b23">
+<div id="taoptionAnswer2q0b2" class="block iDevice_content">
+<p>Código.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b2" class="block iDevice_content">
+<p>¿Qué permite la POO?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b21" class="sr-av"><a href="#answer-key1b21">Opción 1</a></label><input type="radio" name="key1b2" id="key1b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b21">
+<div id="taoptionAnswer0q1b2" class="block iDevice_content">
+<p>Borrar código.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b22" class="sr-av"><a href="#answer-key1b22">Opción 2</a></label><input type="radio" name="key1b2" id="key1b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b22">
+<div id="taoptionAnswer1q1b2" class="block iDevice_content">
+<p>Buscar código.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b23" class="sr-av"><a href="#answer-key1b23">Opción 3</a></label><input type="radio" name="key1b2" id="key1b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b23">
+<div id="taoptionAnswer2q1b2" class="block iDevice_content">
+<p>Reciclar código.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore2"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-2">
+<header class="nodeDecoration">
+<h1 id="exenode_2_MetodologaSCRUM" class="nodeTitle">Metodología SCRUM</h1>
+</header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id4-2">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Descripción:</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta4_123_2" class="block iDevice_content">
+<div class="exe-text"><p>Es una metodología ágil para trabajar proyectos de forma grupal. Esta metodología permite la fácil organización de los proyectos por medio de roles en cada grupo, los cuales son:</p>
+<p><strong>1. Product Owner: </strong>Es la conexión entre el cliente y el grupo. Es la cara del equipo. Maneja las ideas que tiene el cliente acerca del producto y lo informa al grupo.</p>
+<p><strong>2. Scrum Master:</strong> Es la "mano derecha" del Product Owner. Es la conexión entre el Product Owner y el Team. Adapta las ideas del Product Owner para adaptarla al producto y que el Team la trabaje.</p>
+<p><strong>3. Scrum Team: </strong>Son el resto del equipo. Trabajan en el producto.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice em_iDevice_question" id="id6-2">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario SCRUM</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta6_112" class="block iDevice_content">
+
+</div>
+<section class="question">
+<form name="true-false-form-0b6" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b6" class="block iDevice_content">
+<p>El Scrum Master es la cara del equipo</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b6"><input type="radio" name="option0b6" id="true0b6" class="exe-radio-option exe-radio-option-0-2-0b6-truefalse" /> Verdadero</label> 
+<label for="false0b6"><input type="radio" name="option0b6" id="false0b6" class="exe-radio-option exe-radio-option-1-2-0b6-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b6" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b6-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+<section class="question">
+<form name="true-false-form-1b6" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 2</h1>
+<div id="taquestion1b6" class="block iDevice_content">
+<p>SCRUM se trabaja individual</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true1b6"><input type="radio" name="option1b6" id="true1b6" class="exe-radio-option exe-radio-option-0-2-1b6-truefalse" /> Verdadero</label> 
+<label for="false1b6"><input type="radio" name="option1b6" id="false1b6" class="exe-radio-option exe-radio-option-1-2-1b6-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s1b6" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s1b6-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+<section class="question">
+<form name="true-false-form-2b6" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 3</h1>
+<div id="taquestion2b6" class="block iDevice_content">
+<p>El Product Owner habla directamente con el cliente</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true2b6"><input type="radio" name="option2b6" id="true2b6" class="exe-radio-option exe-radio-option-0-2-2b6-truefalse" /> Verdadero</label> 
+<label for="false2b6"><input type="radio" name="option2b6" id="false2b6" class="exe-radio-option exe-radio-option-1-2-2b6-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s2b6" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s2b6-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-3">
+<header class="nodeDecoration">
+<h1 id="exenode_3_LosprincipiosSOLID" class="nodeTitle">Los principios SOLID</h1>
+</header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id7-3">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Descripción:</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta7_126_2" class="block iDevice_content">
+<div class="exe-text"><p>Son un grupo de principios que buscan el desarrollo eficaz, accesible, replicable y seguro para cualquier código. Se realiza en la mayoría de trabajos y proyectos y es bastante recomendado para aprender y utilizarlo.</p>
+<p>SOLID es una abreviatura, cada letra significa un principio, los cuales son:</p>
+<p>S: Responsabilidad única.</p>
+<p>O: Abierto - Cerrado.</p>
+<p>L: Sustitución de Liskov.</p>
+<p>I: Segregación de interfaz.</p>
+<p>D: Inversión de dependencia.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ScrambledListIdevice em_iDevice em_iDevice_activity" id="id8-3">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h2 class="iDeviceTitle">Ordenar palabras</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta8_127_2" class="block iDevice_content">
+<div class="exe-sortableList"><div class="exe-sortableList-instructions"><p>Ordene correctamente los principios SOLID.</p></div><ul class="exe-sortableList-list"><li>Responsabilidad única.</li><li>Abierto - Cerrado.</li><li>Sustitución de Liskov.</li><li>Segregación de interfaz.</li><li>Inversión de dependencia</li></ul><div style="display:none"><p class="exe-sortableList-buttonText">Comprobar</p><p class="exe-sortableList-rightText">¡Correcto!</p><p class="exe-sortableList-wrongText">No es correcto... Respuesta correcta:</p></div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-4">
+<header class="nodeDecoration">
+<h1 id="exenode_4_OperadoresmatemticosenJava" class="nodeTitle">Operadores matemáticos en Java</h1>
+</header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id9-4">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Descripción:</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta9_128_2" class="block iDevice_content">
+<div class="exe-text"><p>En Java, existen operaciones matemáticas que permiten efectuar operaciones, valga la redundancia, entre variables. Ejemplo:</p>
+<p><strong>1. Igualdad:</strong> Es representado por el signo "=", da a entender que una variable tendrá el valor de lo que se le asigne al otro lado. Ej: variable1 = variable2.</p>
+<p><strong>2. Suma: </strong>Es representado por el signo "+", da a entender una suma entre entidades. Ej: variable1 + variable2.</p>
+<p><strong>3. Resta: </strong>Es representado por el signo "-", da a entender una resta entre entidades. EJ: variable1 - variable2.</p>
+<p><strong>4. Multiplicación: </strong>Es representado por el signo "*", da a entender una multiplicación entre entidades. Ej: variable1 * variable2.</p>
+<p><strong>5. División: </strong>Es representado por el signo "/", da a entender una división entre entidades. Ej: variable1 / variable2.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultichoiceIdevice em_iDevice em_iDevice_question" id="id12-4">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h2 class="iDeviceTitle">Pregunta de Elección Múltiple</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<form name="multi-choice-form-12_86" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion12_86" class="block question iDevice_content">
+<p>Signo con el cual se efectua una división en Java.</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i12_89" class="sr-av"><a href="#answer-12_89">Opción 1</a></label><input type="radio" name="option12_86" id="i12_89" class="exe-radio-option exe-radio-option-0-3-12_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-12_89"><div id="taans12_89" class="block iDevice_content">
+<p><em>&amp;&amp;</em></p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i12_92" class="sr-av"><a href="#answer-12_92">Opción 2</a></label><input type="radio" name="option12_86" id="i12_92" class="exe-radio-option exe-radio-option-1-3-12_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-12_92"><div id="taans12_92" class="block iDevice_content">
+<p>%</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i12_242" class="sr-av"><a href="#answer-12_242">Opción 3</a></label><input type="radio" name="option12_86" id="i12_242" class="exe-radio-option exe-radio-option-2-3-12_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-12_242"><div id="taans12_242" class="block iDevice_content">
+<p>/</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<section id="sa0b12_86" class="feedback js-hidden">
+<p>Incorrecto</p>
+</section>
+<section id="sa1b12_86" class="feedback js-hidden">
+<p>Incorrecto</p>
+</section>
+<section id="sa2b12_86" class="feedback js-hidden">
+<p>Opción correcta</p>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-12_89">Incorrecto</a><span> (<a href="#sa0b12_86">Retroalimentación</a>)</span></li>
+<li><a href="#answer-12_92">Incorrecto</a><span> (<a href="#sa1b12_86">Retroalimentación</a>)</span></li>
+<li><a href="#answer-12_242">Opción correcta</a><span> (<a href="#sa2b12_86">Retroalimentación</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-12_95" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion12_95" class="block question iDevice_content">
+<p>Signo con el cual se efectua una igualdad en Java.</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i12_98" class="sr-av"><a href="#answer-12_98">Opción 1</a></label><input type="radio" name="option12_95" id="i12_98" class="exe-radio-option exe-radio-option-0-3-12_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-12_98"><div id="taans12_98" class="block iDevice_content">
+<p>==</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i12_101" class="sr-av"><a href="#answer-12_101">Opción 2</a></label><input type="radio" name="option12_95" id="i12_101" class="exe-radio-option exe-radio-option-1-3-12_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-12_101"><div id="taans12_101" class="block iDevice_content">
+<p>=</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i12_239" class="sr-av"><a href="#answer-12_239">Opción 3</a></label><input type="radio" name="option12_95" id="i12_239" class="exe-radio-option exe-radio-option-2-3-12_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-12_239"><div id="taans12_239" class="block iDevice_content">
+<p>$</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<section id="sa0b12_95" class="feedback js-hidden">
+<p>Incorrecto</p>
+</section>
+<section id="sa1b12_95" class="feedback js-hidden">
+<p>Opción correcta</p>
+</section>
+<section id="sa2b12_95" class="feedback js-hidden">
+<p>Incorrecto</p>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-12_98">Incorrecto</a><span> (<a href="#sa0b12_95">Retroalimentación</a>)</span></li>
+<li><a href="#answer-12_101">Opción correcta</a><span> (<a href="#sa1b12_95">Retroalimentación</a>)</span></li>
+<li><a href="#answer-12_239">Incorrecto</a><span> (<a href="#sa2b12_95">Retroalimentación</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-12_245" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion12_245" class="block question iDevice_content">
+<p>Signo con el cual se efectua una multiplicación en Java.</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i12_248" class="sr-av"><a href="#answer-12_248">Opción 1</a></label><input type="radio" name="option12_245" id="i12_248" class="exe-radio-option exe-radio-option-0-3-12_245-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-12_248"><div id="taans12_248" class="block iDevice_content">
+<p>*</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i12_251" class="sr-av"><a href="#answer-12_251">Opción 2</a></label><input type="radio" name="option12_245" id="i12_251" class="exe-radio-option exe-radio-option-1-3-12_245-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-12_251"><div id="taans12_251" class="block iDevice_content">
+<p>x</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i12_254" class="sr-av"><a href="#answer-12_254">Opción 3</a></label><input type="radio" name="option12_245" id="i12_254" class="exe-radio-option exe-radio-option-2-3-12_245-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-12_254"><div id="taans12_254" class="block iDevice_content">
+<p>.</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<section id="sa0b12_245" class="feedback js-hidden">
+<p>Opción correcta</p>
+</section>
+<section id="sa1b12_245" class="feedback js-hidden">
+<p>Incorrecto</p>
+</section>
+<section id="sa2b12_245" class="feedback js-hidden">
+<p>Incorrecto</p>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-12_248">Opción correcta</a><span> (<a href="#sa0b12_245">Retroalimentación</a>)</span></li>
+<li><a href="#answer-12_251">Incorrecto</a><span> (<a href="#sa1b12_245">Retroalimentación</a>)</span></li>
+<li><a href="#answer-12_254">Incorrecto</a><span> (<a href="#sa2b12_245">Retroalimentación</a>)</span></li>
+</ol>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-5">
+<header class="nodeDecoration">
+<h1 id="exenode_5_OperadoresrelacionalesenJava" class="nodeTitle">Operadores relacionales en Java</h1>
+</header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id13-5">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Descripción:</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta13_132_2" class="block iDevice_content">
+<div class="exe-text"><p>En Java, existen operadores relacionales que permiten crear relaciones entre variables únicamente, entre los cuales están:</p>
+<p><strong>1. AND: </strong>Es representado con el signo "&amp;&amp;", da a entender una relación "AND", lo cual significa que ambas entidades tienen que estar presentes para que se cumpla la relación, para que la relación sea verdadera. Ej: While variable1 &amp;&amp; variable2 {}.</p>
+<p><strong>2. OR: </strong>Es representado con el signo "||", da a entender una relación "OR", lo cual significa que solo una entidad tiene que estar presente para que se cumpla la relación. Ej: While variable1 || variable2 {}.<strong></strong></p>
+<p><strong>3. Equivalencia: </strong>Es representado por el signo "==", da a entender una equivalencia entre entidades. Ej: If variable1 == variable2 {}.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice em_iDevice_question" id="id15-5">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h2 class="iDeviceTitle">Pregunta de Selección Múltiple</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-15_120">
+<form name="multi-select-form-15_120" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion15_120" class="block question iDevice_content">
+<p>Seleccione SOLO los operadores relacionales:</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op15_1200" class="sr-av"><a href="#answer-15_123">Opción 1</a></label><input type="checkbox" id="op15_1200" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-15_123"><div id="taans15_123" class="block iDevice_content">
+<p>+</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-15_1200" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op15_1201" class="sr-av"><a href="#answer-15_257">Opción 2</a></label><input type="checkbox" id="op15_1201" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-15_257"><div id="taans15_257" class="block iDevice_content">
+<p>==</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-15_1201" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op15_1202" class="sr-av"><a href="#answer-15_259">Opción 3</a></label><input type="checkbox" id="op15_1202" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-15_259"><div id="taans15_259" class="block iDevice_content">
+<p>/</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-15_1202" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op15_1203" class="sr-av"><a href="#answer-15_261">Opción 4</a></label><input type="checkbox" id="op15_1203" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-15_261"><div id="taans15_261" class="block iDevice_content">
+<p>&amp;&amp;</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-15_1203" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op15_1204" class="sr-av"><a href="#answer-15_263">Opción 5</a></label><input type="checkbox" id="op15_1204" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-15_263"><div id="taans15_263" class="block iDevice_content">
+<p>||</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-15_1204" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op15_1205" class="sr-av"><a href="#answer-15_265">Opción 6</a></label><input type="checkbox" id="op15_1205" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-15_265"><div id="taans15_265" class="block iDevice_content">
+<p>*</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-15_1205" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op15_1206" class="sr-av"><a href="#answer-15_267">Opción 7</a></label><input type="checkbox" id="op15_1206" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-15_267"><div id="taans15_267" class="block iDevice_content">
+<p>-</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-15_1206" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-7-15_120" /> 
+</p>
+</div>
+<section id="f15_120" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-15_123" class="right">Correcto</a></li>
+<li><a href="#answer-15_257" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-15_259" class="right">Correcto</a></li>
+<li><a href="#answer-15_261" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-15_263" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-15_265" class="right">Correcto</a></li>
+<li><a href="#answer-15_267" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+
+
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body>
+</html>
